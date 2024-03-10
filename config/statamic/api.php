@@ -21,7 +21,7 @@ return [
         'collections' => [
             'articles' => [
                 'allowed_filters' => ['title', 'status']
-            ]
+            ],
         ],
         'navs' => false,
         'taxonomies' => true,
