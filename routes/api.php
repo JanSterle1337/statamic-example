@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Psy\CodeCleaner\FunctionReturnInWriteContextPass;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +19,13 @@ use Illuminate\Support\Facades\Route;
 // Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
+
+Route::get('/hello', function () {
+    return response()->json(['message' => 'Hello, World!']);
+});
+
+Route::get('/helloblyat', function () {
+    return response()->json(['message' => 'Hello, Blyattt!']);
+});
+
+Route::put('/articles/{title}', [ArticleController::class, 'update']);
