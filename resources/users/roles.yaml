@@ -1,4 +1,37 @@
-# admin:
-#   title: Administrator
-#   permissions:
-#     - super
+superuserrole:
+  title: superuserrole
+  permissions:
+    - super
+limitedrole:
+  title: limitedRole
+  permissions:
+    - 'access cp'
+    - 'view pages entries'
+    - 'edit pages entries'
+    - 'create pages entries'
+    - 'view blog entries'
+    - 'edit blog entries'
+    - 'create blog entries'
+    - 'view articles entries'
+    - 'edit articles entries'
+    - 'create articles entries'
+    - 'delete articles entries'
+verylimitedrole:
+  title: verylimitedrole
+  permissions:
+    - 'access cp'
+    - 'view pages entries'
+    - 'edit pages entries'
+    - 'publish pages entries'
+    - 'edit other authors pages entries'
+    - 'publish other authors pages entries'
+    - 'view blog entries'
+    - 'edit blog entries'
+    - 'publish blog entries'
+    - 'edit other authors blog entries'
+    - 'publish other authors blog entries'
+    - 'view articles entries'
+    - 'edit articles entries'
+    - 'publish articles entries'
+    - 'edit other authors articles entries'
+    - 'publish other authors articles entries'

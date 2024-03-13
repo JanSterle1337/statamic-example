@@ -1,0 +1,5 @@
+name: test2
+roles:
+  - verylimitedrole
+id: 59fdbb96-efa3-4752-97ba-83c73aee6866
+password_hash: $2y$10$tpZdMClecwvqBf0rHJhD..sIOl1UFALVV/O.1iMvo.slYWdwnB47y

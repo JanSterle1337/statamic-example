@@ -1,0 +1,7 @@
+name: superuser
+roles:
+  - superuserrole
+groups:
+  - superusers
+super: true
+id: 147088a5-79e5-4801-aae4-65ebb944352f

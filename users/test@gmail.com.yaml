@@ -1,0 +1,6 @@
+name: Test1
+super: false
+roles:
+  - limitedrole
+id: 6605d885-a5d4-4c4d-9337-30061d44c031
+password_hash: $2y$10$Q1DMuY6dL3.1gn/HKiiUJuGKlRmc84G/T9y/11zBXJNdnK9sDK3ii
