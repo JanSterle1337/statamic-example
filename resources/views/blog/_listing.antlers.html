@@ -1,8 +1,26 @@
-<section class="border border-green-400 mt-12">
+<!--<section class="border border-green-400 mt-12">
     {{ collection:blog :limit="limit" }}
         <a href="{{ url }}" class="flex items-center justify-between p-5 border-t border-green-400 text-green-400 hover:text-green-900 hover:bg-green-400">
             <span>{{ title }}</span>
             <span class="text-green-900 text-sm">{{ date }}</span>
         </a>
     {{ /collection:blog }}
+</section> -->
+<!--<section class="border border-green-400 mt-12">
+    {{ collection:blog group:contains="authenticated" }}
+            <h2>{{ title }}</h2>
+            <p>{{ content }}</p>
+    {{ /collection:blog }}
+</section> -->
+
+<section class="border border-green-400 mt-12">
+    {{ collection:blog taxonomy:group="authenticated" }}
+        <h2>{{ title }}</h2>
+        <p>{{ content }}</p>
+    {{ /collection:blog }}
 </section>
+
+
+<div class="max-w-md mx-auto bg-red-700 rounded p-8 shadow-md">
+    <a href="{{ user:logout_url }}">Log out</a>
+</div>
