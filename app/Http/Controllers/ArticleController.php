@@ -18,12 +18,14 @@ class ArticleController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-     public function update(Request $request, $title) 
+     public function update(Request $request, $title)
      {
-        
+
+
+
         $filePath =  base_path('content/collections/articles/' . $title . '.md');
         $newFilePath = base_path('content/collections/articles/' .  'new-title' . '.md');
-    
+
         if (file_exists($filePath)) {
 
             $markdownFile = file_get_contents($filePath);

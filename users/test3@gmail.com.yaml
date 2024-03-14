@@ -1,0 +1,5 @@
+name: test3
+roles:
+  - limitedrole
+id: 5563e08d-7c7e-41f9-9981-bf0173bb2819
+password_hash: $2y$10$fyuf8c5MDaE7t.jU.9KW2Oms5m6U1yZ8Iq61N5yRFIZy5C9G05bke
