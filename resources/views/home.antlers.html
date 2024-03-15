@@ -18,7 +18,7 @@
 
     <div class="mb-4">
         <label for="email" class="block text-gray-700">Email</label>
-        <input id="email" type="email" name="email" value="{{ old:email }}" class="w-full border border-gray-300 rounded px-3 py-2 mt-1">
+        <input id="email" type="email" name="email" value="{{ old:email }}" class="w-full border border-gray-300 rounded px-3 py-2 mt-1 text-black">
     </div>
 
     <div class="mb-6">
@@ -30,9 +30,9 @@
     {{ /user:login_form }}
 </div>
 
-<div class="max-w-md mx-auto bg-red-700 rounded p-8 shadow-md">
+<!--<div class="max-w-md mx-auto bg-red-700 rounded p-8 shadow-md">
     <a href="{{ user:logout_url }}">Log out</a>
-</div>
+</div> -->
 
 <!--{{ content }}
 {{ partial:blog/listing limit="5" }}

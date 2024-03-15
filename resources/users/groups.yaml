@@ -2,3 +2,7 @@ superusers:
   title: superusers
 subscribers:
   title: subscribers
+free-version-account:
+  title: free-version-account
+  roles:
+    - limitedrole
